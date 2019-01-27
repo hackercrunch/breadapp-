@@ -453,7 +453,7 @@ const styles = StyleSheet.create({
   fieldText:{
     color:'#4A90E2',
     fontSize:16,
-    fontWeight:600
+    fontWeight:'600'
   }
   
 })
