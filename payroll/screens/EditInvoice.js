@@ -292,7 +292,7 @@ const styles = StyleSheet.create({
     },
     fieldLabel:{
       color:'#4A90E2',
-      fontSize:14,
+      fontSize:14 ,
       fontWeight:600
     },
     activityIndicator: {
