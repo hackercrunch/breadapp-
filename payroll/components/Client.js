@@ -1,6 +1,7 @@
 import React from 'react';
 import { View, Linking, TouchableOpacity,StyleSheet } from 'react-native';
 import { Text, Button, Card, Divider,Avatar } from 'react-native-elements';
+//this is a client file 
 
 export default class Client extends React.Component {
   
