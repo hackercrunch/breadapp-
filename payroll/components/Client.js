@@ -20,15 +20,7 @@ export default class Client extends React.Component {
       >
         <Card>
             <View style={{flexDirection:"row"}}>
-                <View style={styles.avatarContainer}>
-                  <Avatar
-                  large
-                  rounded
-                  source={{uri: "https://s3.amazonaws.com/uifaces/faces/twitter/ladylexy/128.jpg"}}
-   
-                />
-                </View>
-
+                
                 <View>
                     <Card 
                       title={org}
