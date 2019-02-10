@@ -20,38 +20,32 @@ export default class Client extends React.Component {
       >
         <Card>
             <View style={{flexDirection:"row"}}>
-                
-                <View>
-                    <Card 
-                      title={org}
-                      containerStyle={{width:200, marginLeft:20, backgroundColor:'#d9e3f0'}}
-                    >
-                      <View style={{flexDirection:'row'}}>
-                        <View style={{flex:1}}>
-                          <Text style={{color:'#7E8287'}}>Subject:</Text>
-                        </View>
+              <View>  
+                <View style={{alignItems:'center', }}>
+                    <Text style={styles.headerText}>{org}</Text>
+                </View>  
+                <View style={{flexDirection:'row'}}>
+                  <View style={{flex:1}}>
+                    <Text style={{color:'#7E8287'}}>Subject:</Text>
+                  </View>
 
-                        <View style={{flex:1}}>  
-                          <Text style={{color:'#2ccce4', fontWeight:'600'}}>{subject}</Text>
-                        </View>  
-                      </View>  
+                  <View style={{flex:1}}>  
+                    <Text style={{color:'#2ccce4', fontWeight:'600'}}>{subject}</Text>
+                  </View>  
+                </View>  
 
-                      <View style={{flexDirection:'row'}}>
-                        <View style={{flex:1}}>
-                           <Text style={{color:'#7E8287'}}>Rate:</Text>
-                        </View>
+                <View style={{flexDirection:'row'}}>
+                  <View style={{flex:1}}>
+                      <Text style={{color:'#7E8287'}}>Rate:</Text>
+                  </View>
 
-                        <View style={{flex:1}}>   
-                          <Text style={{color:'#2ccce4', fontWeight:'600'}}>${rate}</Text>
-                        </View>    
-                      </View>
-
-                    </Card>
+                  <View style={{flex:1}}>   
+                    <Text style={{color:'#2ccce4', fontWeight:'600'}}>${rate}</Text>
+                  </View>    
                 </View>
-
+              </View>  
             </View>
- 
-        </Card>          
+       </Card>          
 
       </TouchableOpacity>
     );
@@ -65,5 +59,9 @@ const styles = StyleSheet.create({
     alignItems:'center', 
     paddingLeft:10
   },
- 
+  headerText:{
+    fontWeight:'600',
+    fontSize:20,
+    color:'#E5E7FA'
+  }
 });
