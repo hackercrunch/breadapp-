@@ -25,9 +25,8 @@
     "react-native-simple-dialogs": "^1.0.0",
     "react-native-simple-radio-button": "^2.7.3",
     "react-native-snap-carousel": "^3.7.5",
-    "react-navigation": "^2.9.2",
-    "victory-native": "^0.17.4"
-  },
+    "react-navigation": "^2.9.2"
+    },
   "devDependencies": {
     "babel-preset-expo": "^5.0.0"
   }
